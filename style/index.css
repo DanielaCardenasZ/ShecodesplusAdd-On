@@ -2,6 +2,7 @@ h1 {
   text-align: center;
   font-family: sans-serif;
   font-size: 50px;
+  color: antiquewhite;
 }
 h2 {
   margin: 0 0 5px;
@@ -17,7 +18,29 @@ a {
   text-decoration-line: none;
 }
 body {
-  background-color: rgb(240, 226, 240);
+  background: linear-gradient(135deg, #0000 20.5%, #c8c8c8 0 29.5%, #0000 0) 0
+      16px,
+    linear-gradient(45deg, #0000 8%, #c8c8c8 0 17%, #0000 0 58%) 32px 0,
+    linear-gradient(
+      135deg,
+      #0000 8%,
+      #c8c8c8 0 17%,
+      #0000 0 58%,
+      #c8c8c8 0 67%,
+      #0000 0
+    ),
+    linear-gradient(
+      45deg,
+      #0000 8%,
+      #c8c8c8 0 17%,
+      #0000 0 58%,
+      #c8c8c8 0 67%,
+      #0000 0 83%,
+      #c8c8c8 0 92%,
+      #0000 0
+    ),
+    #aea5a5;
+  background-size: 64px 64px;
 }
 select {
   padding: 12px;
@@ -31,7 +54,7 @@ select {
 .container {
   max-width: 600px;
   margin: 0 auto;
-  background: White;
+  background: rgb(135, 117, 117);
   padding: 60px;
   box-shadow: rgba(67, 67, 83, 0.2) 0px 7px 29px 0px;
   font-family: Arial, Helvetica, sans-serif;
@@ -47,6 +70,7 @@ select {
   margin: 28px 0;
   padding: 20px;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  color: rgb(255, 255, 255);
 }
 .cities:last-child {
   border: none;
@@ -65,7 +89,8 @@ select {
   display: block;
   width: 100%;
   border-radius: 10px;
+  border-color: white;
   padding: 10px;
-  color: grey;
-  opacity: 10px;
+  color: rgb(255, 255, 255);
+  background: rgb(135, 117, 117);
 }
