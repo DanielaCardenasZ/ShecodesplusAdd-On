@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock-Daniela</title>
     <link rel="stylesheet" href="style/index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -18,21 +20,36 @@
         <option value="">Paris</option>
       </select>
 
-      <div class="cities">
+      <div class="cities" id="seattle">
         <div>
           <h2>Seattle 🇺🇸</h2>
-          <div class="date">August 15 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">1:48:05<small>pm</small></div>
+        <div class="time"><small></small></div>
       </div>
-      <div class="cities">
+      <div class="cities" id="spain">
         <div>
-          <h2>Spain 🇪🇸</h2>
-          <div class="date">August 15 2023</div>
+          <h2>Madrid 🇪🇸</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">1:48:05<small>pm</small></div>
+        <div class="time"><small></small></div>
+      </div>
+      <div class="cities" id="tokyo">
+        <div>
+          <h2>Tokyo 🇯🇵</h2>
+          <div class="date"></div>
+        </div>
+        <div class="time"><small></small></div>
+      </div>
+      <div class="cities" id="monterrey">
+        <div>
+          <h2>Monterrey 🇲🇽</h2>
+          <div class="date"></div>
+        </div>
+        <div class="time"><small></small></div>
       </div>
     </div>
+
     <footer>
       Open sourced on
       <a href="https://github.com/DanielaCardenasZ/ShecodesplusAdd-On"
